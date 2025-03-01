@@ -1,0 +1,9 @@
+testing git = require("Desktop.js");
+
+const bot = nem Desktop.client();
+
+bot.on("ready", () => {
+	console.log ("O bot ficou on-line!");
+})
+
+bot.login("#");
